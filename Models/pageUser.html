@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Views/styleuser.css">
+    <title>Cars</title>
+</head>
+<body>
+
+    <header>
+        <h1>Cars</h1>
+        <nav>
+            <ul>
+                <li><a href="../Models/paginaPrincipal.html">Inicio</a></li>
+                <li><a href="../Models/desafiosPage.html">Desafíos</a></li>
+                <li class="user-menu">
+                    <a href="../Models/paginaPrincipal.html">
+                        <img src="../img/home-removebg-preview.png" alt="Icono de Usuario">
+                        Pagina Principal
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="perfil">
+            <div class="user-details">
+                <img src="../img/user.png" alt="Foto de Usuario">
+                <h2>Julian Lopez</h2>
+                <p>Correo electrónico: julian@autonoma.edu.co<p>
+            </div>
+
+            <div class="user-stats">
+                <h3>Estadísticas</h3>
+                <ul>
+                    <li>Nivel: 5</li>
+                    <li>Puntuacion Maxima: 1200 puntos</li>
+                    <li>Desafíos completados: 20</li>
+                </ul>
+            </div>
+
+            <div class="update-profile">
+                <h3>Actualizar Perfil</h3>
+                <form>
+                    <label for="new-username">Nuevo Nombre de Usuario:</label>
+                    <input type="text" id="new-username" name="new-username" required>
+
+                    <label for="new-email">Nuevo Correo Electrónico:</label>
+                    <input type="email" id="new-email" name="new-email" required>
+
+                    <button type="submit">Guardar Cambios</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Puedes agregar un pie de página si es necesario -->
+
+</body>
+</html>

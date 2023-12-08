@@ -1,0 +1,90 @@
+/* Reset de estilos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos generales */
+header {
+    background-color: #4070f4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+nav a img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.user-info {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-menu:hover .user-info {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos de la página de desafíos */
+#desafios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.challenge-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.challenge-card h2 {
+    color: #333;
+}
+
+.challenge-card p {
+    color: #666;
+}
+
+/* ... (código posterior) ... */
